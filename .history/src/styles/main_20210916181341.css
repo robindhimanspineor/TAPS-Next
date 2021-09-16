@@ -109,22 +109,6 @@ a {
   width: 35px;
 }
 
-.searchbar .form-group-wrapper .search-icon button span {
-  display: block;
-  margin: 0 auto;
-  padding: 2px;
-}
-
-.searchbar .form-group-wrapper .search-icon button span {
-  width: 20px;
-  height: 20px;
-}
-
-.searchbar .form-group-wrapper .search-icon button svg {
-  height: 15px;
-  width: 15px;
-}
-
 .cart-buttons {
   /* flex-basis: 550px; */
   flex-basis: 300px;

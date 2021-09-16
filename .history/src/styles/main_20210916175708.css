@@ -89,42 +89,6 @@ a {
   border-radius: 0 3px 3px 0;
 }
 
-.searchbar .form-group-wrapper .search-icon button {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  width: 50px;
-  height: 35px;
-  background: #db443a;
-  outline: 0;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-}
-
-.searchbar .form-group-wrapper .search-icon button {
-  width: 35px;
-}
-
-.searchbar .form-group-wrapper .search-icon button span {
-  display: block;
-  margin: 0 auto;
-  padding: 2px;
-}
-
-.searchbar .form-group-wrapper .search-icon button span {
-  width: 20px;
-  height: 20px;
-}
-
-.searchbar .form-group-wrapper .search-icon button svg {
-  height: 15px;
-  width: 15px;
-}
-
 .cart-buttons {
   /* flex-basis: 550px; */
   flex-basis: 300px;

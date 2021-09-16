@@ -1,0 +1,58 @@
+@tailwind base;
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+@tailwind utilities;
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: center;
+  height: 80px;
+  max-width: 1580px;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0 125px 0 115px;
+}
+
+.logo {
+  flex-basis: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo a span {
+  display: block;
+  margin-top: 5px;
+  width: 140px;
+}
+
+.searchbar {
+  flex: 1;
+}
