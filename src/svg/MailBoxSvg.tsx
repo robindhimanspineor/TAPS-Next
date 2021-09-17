@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MailBoxSvg = () => (
+const MailBoxSvg: any = () => (
   <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ const MailBoxSvg = () => (
     width="550.795px"
     height="550.795px"
     viewBox="0 0 550.795 550.795"
-    style={{ enableBackground: 'new 0 0 550.795 550.795' }}
+    // style={{ enableBackground: 'new 0 0 550.795 550.795' }}
     xmlSpace="preserve"
     aria-label="mail box"
   >

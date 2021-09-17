@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PhoneHandle = () => (
+const PhoneHandle: any = () => (
   <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ const PhoneHandle = () => (
     width="401.998px"
     height="401.998px"
     viewBox="0 0 401.998 401.998"
-    style={{ enableBackground: 'new 0 0 401.998 401.998' }}
+    // style={{ enableBackground: 'new 0 0 401.998 401.998' }}
     xmlSpace="preserve"
     aria-label="phone handle svg"
   >

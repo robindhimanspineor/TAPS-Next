@@ -1,5 +1,6 @@
 import Link from 'next/link';
-const CategoriesHeader = () => {
+
+const CategoriesHeader: any = () => {
   return (
     <div className="header-categories w-screen max-w-screen-xl flex justify-between ">
       <Link href="/">

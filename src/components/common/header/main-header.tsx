@@ -2,7 +2,7 @@ import Logo from './logo';
 import Navigation from './navigation/Navigation';
 import SearchBar from './searchbar';
 
-const MainHeader = () => {
+const MainHeader: any = () => {
   return (
     <div className="main-header">
       <Logo />

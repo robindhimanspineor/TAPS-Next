@@ -47,7 +47,7 @@ const SearchBar = () => {
                   x="0px"
                   y="0px"
                   viewBox="0 0 52.966 52.966"
-                  style={{ enableBackground: 'new 0 0 52.966 52.966' }}
+                  //  style={{ enableBackground: 'new 0 0 52.966 52.966' }}
                   xmlSpace="preserve"
                   aria-label="search icon"
                 >

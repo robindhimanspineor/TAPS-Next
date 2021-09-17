@@ -1,9 +1,9 @@
-import PhoneHandle from '../../../svg/PhoneHandleSvg.js';
-import MailBoxSvg from '../../../svg/MailBoxSvg.js';
-import TrackOrderSvg from '../../../svg/TrackOrderSvg.js';
+import topHeaderStyles from 'Styles/top-header.module.css';
+import MailBoxSvg from 'Svg/MailBoxSvg';
+import PhoneHandle from 'Svg/PhoneHandleSvg';
+import TrackOrderSvg from 'Svg/TrackOrderSvg';
 
-import topHeaderStyles from '../../../styles/top-header.module.css';
-const TopHeader = () => {
+const TopHeader: any = () => {
   return (
     <div className={`${topHeaderStyles.bgBlue} head-top py-2 w-full text-base`}>
       <div className="w-screen max-w-screen-xl flex justify-between mx-auto">

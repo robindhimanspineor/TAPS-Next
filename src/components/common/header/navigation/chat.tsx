@@ -1,4 +1,4 @@
-import CommentsSvg from '../../../../svg/CommentsSvg.js';
+import CommentsSvg from 'Svg/CommentsSvg';
 
 const Chat = () => {
   return (
