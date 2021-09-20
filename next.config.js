@@ -1,8 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
+const Cookies = require('universal-cookie');
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
+const cookies = new Cookies();
+const cardID = cookies.get('cart_id');
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
@@ -17,4 +20,21 @@ module.exports = withBundleAnalyzer({
       destination: '/about',
     },
   ],
+  redirects: () => [
+    {
+      source: '/cart',
+      has: [
+        {
+          type: 'cookie',
+          key: 'cart_id',
+          value: cardID,
+        },
+      ],
+      permanent: true,
+      destination: '/',
+    },
+  ],
+
+  // Use the CDN in production and localhost for development.
+  // assetPrefix: isProd ? 'https://cdn.mydomain.com' : '',
 });

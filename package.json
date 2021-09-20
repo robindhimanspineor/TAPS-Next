@@ -2,9 +2,9 @@
   "name": "next-js-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
     "build-prod": "run-s clean build export",
@@ -14,11 +14,14 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
     "next": "^11.1.2",
     "next-seo": "^4.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^11.1.2",

@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:
+
+User-Agent: bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+ 
+User-agent: Slurp
+Allow: /
+
+Sitemap: https://www.theautopartsshop.com/sitemap.xml
