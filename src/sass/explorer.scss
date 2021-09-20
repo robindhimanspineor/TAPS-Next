@@ -1,0 +1,293 @@
+@supports (-ms-ime-align: auto) {
+  input::-ms-clear {
+    display: none;
+  }
+  input[type='text']::-ms-clear {
+    display: none;
+  }
+  .payment_method_wrapper span.svg{
+    svg{
+      margin-left:-70px;
+    }
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (-ms-high-contrast: none) {
+  .wrapper_main{
+    display: block !important;
+  }
+  .head-wrapper{
+    position: relative !important;
+  }
+  header {
+    width: 100%;
+    .logo {
+      height: 100%;
+      a {
+        height: 100%;
+        span {
+          height: 100%;
+          margin-top: 0px;
+        }
+      }
+    }
+
+   .dropdown-menu{
+     z-index: 99;
+   }
+  }
+  section {
+    .body-container {
+      &.details {
+        .section-left {
+          .gallery-main {
+            .g-large {
+              display: block !important;
+              .large-img {
+                padding: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .loader_main {
+    &.widget {
+      img {
+        margin-top: 100px;
+      }
+    }
+  }
+  .item-details {
+    .image {
+      img {
+        width: auto;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+  .listing-container {
+    .product-box {
+      .product-img {
+        div,
+        a {
+          img {
+            height: auto !important;
+          }
+        }
+      }
+      .product-control {
+        div {
+          &.disable {
+            button {
+              &:disabled {
+                border-color: rgba(255, 255, 255, 0.37) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .additional-info {
+    .additional-info-wrapper {
+      &:first-child {
+        .image {
+          width: 70px;
+        }
+      }
+      &:nth-child(2) {
+        .image {
+          width: 32px;
+        }
+      }
+      &:last-child {
+        .image {
+          width: 56px;
+        }
+      }
+    }
+  }
+  input[type='text']::-ms-clear {
+    display: none;
+  }
+  button {
+    &:disabled {
+      &::after {
+        border-color: rgba(255, 255, 255, 0.8) !important;
+      }
+    }
+  }
+  .cart-summary-box {
+    .bottom {
+      .proceed {
+        &:disabled {
+          border-color: rgba(255, 255, 255, 0.8) !important;
+        }
+      }
+    }
+    .cart-content {
+      ul {
+        li {
+          .shipping-dropdown {
+            .form-grp {
+              div {
+                &.error {
+                  left: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  div {
+    &.sku-button-container {
+      button {
+        &.add-to-cart {
+          &:disabled {
+            border-color: rgba(255, 255, 255, 0.8) !important;
+          }
+        }
+      }
+    }
+  }
+  .card-details {
+    .payment-label {
+      &.submit {
+        button {
+          &:disabled {
+            border-color: rgba(255, 255, 255, 0.8) !important;
+          }
+        }
+      }
+    }
+  }
+  input::-ms-clear {
+    display: none;
+  }
+  .tab-content {
+    .fitment-input {
+      flex: 1;
+      .select-text {
+        span {
+          &.right-arrow {
+            top: 50%;
+            transform: translate(0%, -50%);
+            -ms-transform: translate(0%, -50%);
+          }
+        }
+      }
+    }
+    .saved-vehicle-input {
+      .saved-vehicle {
+        .right {
+          position: absolute;
+          right: 165px;
+          top: 50%;
+          transform: translate(0%, -50%);
+          -ms-transform: translate(0%, -50%);
+        }
+      }
+    }
+  }
+  .fitment-input {
+    .select-text {
+      span {
+        &.right-arrow {
+          top: 50%;
+          transform: translate(0%, -50%);
+          -ms-transform: translate(0%, -50%);
+        }
+      }
+    }
+  }
+  .category-box {
+    flex: 1;
+    .cb-inner {
+      img{
+        width: 75%;
+      }
+    }
+  }
+  .spacer{
+    flex:1;
+  }
+  .body-container{
+    height:100%;
+  }
+
+  .fitment-input{
+    flex: 1;
+  }
+
+  .payment_method_wrapper span.svg{
+    svg{
+      margin-left:-70px;
+    }
+  }
+  .popup-container {
+    .popup-panel-container {
+      .panel-header {
+        .ph-close {
+          span {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  .widget {
+    .widget-control-box {
+      .w-control {
+        .result-type-anc {
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+  section {
+    div {
+      &.div-bordered {
+        &.fitment {
+          &.will-fit {
+            .text {
+              p {
+                span {
+                  &.fit-text {
+                    flex: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  section {
+    div {
+      &.shippingInfo {
+        p {
+          display: block !important;
+          span {
+            &.label {
+              display: inline-block !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

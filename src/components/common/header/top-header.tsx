@@ -1,4 +1,4 @@
-import topHeaderStyles from 'Styles/top-header.module.css';
+import topHeaderStyles from 'Styles/top-header.module.scss';
 import MailBoxSvg from 'Svg/MailBoxSvg';
 import PhoneHandle from 'Svg/PhoneHandleSvg';
 import TrackOrderSvg from 'Svg/TrackOrderSvg';

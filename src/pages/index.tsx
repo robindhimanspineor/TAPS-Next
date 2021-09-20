@@ -3,6 +3,8 @@
 // import { Meta } from '../layout/Meta';
 // import { Main } from '../templates/Main';
 import Header from '../components/common/header';
+import Banner from '../components/home/Banner';
+import ShopByTabs from '../components/home/shopByTabs';
 
 const Index = () => {
   // const router = useRouter();
@@ -20,6 +22,10 @@ const Index = () => {
     <div>
       <main className="main-container block">
         <Header />
+        <section>
+          <Banner />
+          <ShopByTabs />
+        </section>
       </main>
     </div>
   );

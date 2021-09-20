@@ -1,0 +1,497 @@
+@import '../sass/variables.scss';
+.tabs {
+  display: block;
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tabsMain {
+    overflow: visible;
+    position: relative;
+    margin: 0 46px;
+
+    .tabList {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      margin-top: -63px;
+      background: linear-gradient(to right, #222 50%, #636363);
+      padding: 30px 68px;
+
+      .tabListItem {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin-bottom: -1px;
+        padding: 0.5rem 0.75rem;
+      }
+
+      .tabsButton {
+        margin-right: 1px;
+        padding: 0px 46px;
+        background: #222;
+        min-height: 60px;
+        border: 0;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'poppinsregular';
+        text-transform: capitalize;
+        border-top: 5px solid transparent;
+        cursor: pointer;
+        margin: 0 9px 0 0;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        &.tabListActive {
+          background: #3d5b99;
+        }
+      }
+    }
+
+    .tabContent {
+      padding: 0 50px 30px 50px;
+      background: linear-gradient(to right, #222 50%, #636363);
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding: 0 0 30px 0;
+      }
+    }
+  }
+}
+
+.formWrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 0 20px;
+  span {
+    &.cancel_add_new {
+      position: absolute;
+      right: 0;
+      bottom: -21px;
+      color: #dad4d4;
+      cursor: pointer;
+    }
+  }
+  .buttonFitSearch {
+    background: $red;
+    color: $white;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    width: 101%;
+    height: 66px;
+    text-transform: uppercase;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    &.buttonVinSearch {
+      flex-basis: 230px;
+      width: 230px;
+    }
+  }
+  form {
+    width: 100%;
+  }
+  .inputWrapper {
+    display: flex;
+  }
+}
+.fitmentError {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  left: 15px;
+  top: -28px;
+  padding: 3px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  width: 139px;
+  &:after {
+    bottom: 100%;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #000;
+    border-width: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+.tabsWrapper {
+  &.viaHome {
+    margin-bottom: 40px;
+    //z-index: 9;
+    position: relative;
+    .cancel_add_new {
+      color: #000;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .fitmentInput {
+    .select-text {
+      span {
+        &:nth-child(2) {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          width: 165px;
+        }
+      }
+    }
+  }
+}
+.fitmentInput {
+  > .fitmentInput {
+    border-right: 0px;
+  }
+  position: relative;
+  flex: 1 0 0;
+  background: #fff;
+  border-right: 1px solid #a8a8a8;
+  &:first-child {
+    border-radius: 3px 0 0 3px;
+  }
+  &:last-child {
+    border-radius: 0 3px 3px 0;
+  }
+  input[type='text'] {
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px 0 0 4px;
+    line-height: 26px;
+    font-size: 15px;
+    height: 66px;
+  }
+  .selectText {
+    &.disabled {
+      span {
+        color: #a7a7a7;
+      }
+      cursor: not-allowed;
+    }
+    height: 66px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    position: relative;
+    font-size: 18px;
+    padding-left: 15px;
+    font-family: 'Lato';
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    cursor: default;
+    span {
+      &.meta {
+        font-family: 'Lato';
+        font-size: 14px;
+      }
+
+      &.rightArrow {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translate(0%, -50%);
+      }
+    }
+  }
+  .dropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    top: 100%;
+    z-index: 9;
+    ul {
+      padding: 0;
+      margin: 0;
+      max-height: 315px;
+      overflow: auto;
+      li {
+        padding: 0 15px;
+        line-height: 35px;
+        cursor: pointer;
+        &:hover {
+          background-color: $blue;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.fitmentInputButtonContainer {
+  display: flex;
+}
+.saved-vehicle-input {
+  span.label {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    border-radius: 0px;
+    top: 0;
+    bottom: 0;
+
+    &:first-child {
+      cursor: text;
+      &:hover {
+        background-color: #db443a;
+        border-color: #db443a;
+      }
+    }
+
+    &.label-right {
+      right: 0;
+      align-items: center;
+      width: 155px;
+      text-align: center;
+      justify-content: center;
+      border-left: 1px solid #ddd;
+      cursor: pointer;
+      span {
+        color: #336bb4 !important;
+        &:last-child {
+          font-size: 13px;
+          text-transform: uppercase;
+        }
+      }
+      &:hover {
+        span {
+          &:first-child {
+            text-decoration: none !important;
+          }
+          text-decoration: underline;
+        }
+      }
+      span {
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+  .saved-vehicle {
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px 0 0 4px;
+    line-height: 26px;
+    font-size: 15px;
+    padding-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 165px;
+    border-bottom: 1px solid #ddd;
+    span {
+      &.active-vehicle {
+        cursor: pointer;
+        max-width: 65%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      &.browse {
+        color: $blue;
+        margin-left: 2px;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        &:hover {
+          color: $hoverblue;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+      .svg {
+        width: 15px;
+        height: 16px;
+        overflow: hidden;
+        display: inline-block;
+        margin-left: 15px;
+        &.active {
+          svg {
+            transform: rotate(-180deg);
+          }
+        }
+      }
+    }
+    .saved-vehicle-history {
+      &.sticky {
+        border: 1px solid #ddd;
+        max-height: 200px;
+        transition: max-height 0.3s ease-in-out;
+        overflow: auto;
+      }
+      position: absolute;
+      top: 100%;
+      left: 200px;
+      right: 155px;
+      z-index: 3;
+      background: #fff;
+      max-height: 0;
+      transition: max-height 0.3s ease-in-out;
+      border-top: none;
+      overflow: hidden;
+      p {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 0px;
+        align-items: center;
+        cursor: pointer;
+        &:hover {
+          background-color: #e5e9e9;
+          span.delete {
+            background-color: #fff;
+            color: #ccc;
+            cursor: pointer;
+          }
+        }
+        &:last-child {
+          margin: 0px;
+        }
+      }
+      span {
+        &:first-child {
+          padding: 10px;
+          display: inline-flex;
+          flex: 1;
+        }
+        &.delete {
+          background-color: #ccc;
+          border-radius: 100%;
+          color: #fff;
+          width: 15px;
+          height: 15px;
+          display: block;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 8px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .fitmentInput {
+    .select-text,
+    input[type='text'] {
+      font-size: 15px;
+      height: 55px;
+    }
+
+    .dropdown {
+      ul {
+        li {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .formWrapper {
+    .buttonFitSearch {
+      height: 55px;
+    }
+  }
+  .tabs {
+    .tabsMain {
+      margin: 0 14px;
+      .tab-list {
+        margin-top: -44px;
+        padding: 30px 23px;
+        .tabs-button {
+          padding: 5px 20px;
+          min-height: 41px;
+          font-size: 15px;
+          margin: 0 9px 0 0;
+        }
+      }
+    }
+  }
+  .saved-vehicle-input {
+    .saved-vehicle {
+      padding-left: 165px;
+      .saved-vehicle-history {
+        left: 155px;
+      }
+    }
+    span {
+      &.label {
+        width: 155px;
+      }
+    }
+  }
+  .tabsWrapper {
+    .fitmentInput {
+      .select-text {
+        span {
+          &:nth-child(2) {
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  // .tabs {
+  //   .tabs-main {
+  //     .tab-list {
+  //       margin-top: -58px;
+  //       .tabs-button {
+  //         padding: 15px 20px;
+  //         font-size: 15px;
+  //         min-height: 55px;
+  //       }
+  //     }
+  //   }
+  // }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tabsWrapper {
+    .fitmentInput {
+      .select-text {
+        padding-left: 5px;
+        span {
+          &.right-arrow {
+            right: 0px;
+            font-size: 13px;
+          }
+          &:nth-child(2) {
+            width: 107px;
+          }
+        }
+      }
+    }
+  }
+}
