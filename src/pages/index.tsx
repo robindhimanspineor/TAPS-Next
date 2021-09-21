@@ -2,11 +2,15 @@
 
 // import { Meta } from '../layout/Meta';
 // import { Main } from '../templates/Main';
-import Header from '../components/common/header';
-import Banner from '../components/home/Banner';
-import ShopByTabs from '../components/home/shopByTabs';
-import CategoriesWidget from '../components/widgets/categories/categories-widget';
-import styles from '../styles/home.module.scss';
+
+import Header from 'Components/Common/Header';
+import Banner from 'Components/Home/Banner';
+import ShopByTabs from 'Components/Home/ShopByTabs';
+import BlogsWidget from 'Components/Widgets/Blogs/BlogsWidget';
+import CategoriesWidget from 'Components/Widgets/Categories/categoriesWidget';
+import MakesWidget from 'Components/Widgets/Makes/makesWidget';
+import PartTypesWidget from 'Root/components/Widgets/PartsType/partTypeWidget';
+import styles from 'Styles/home.module.scss';
 
 const Index = () => {
   // const router = useRouter();
@@ -30,6 +34,9 @@ const Index = () => {
           <div className={styles.bodyContainer}>
             <div className={`${styles.container} ${styles.home}`}>
               <CategoriesWidget />
+              <PartTypesWidget />
+              <MakesWidget />
+              <BlogsWidget />
             </div>
           </div>
         </section>

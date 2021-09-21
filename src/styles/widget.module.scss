@@ -98,7 +98,7 @@
   &.nodata {
     padding: 15px 30px;
     min-height: auto;
-    .widget-header {
+    .widgetHeader {
       display: none;
     }
     .row {
@@ -144,7 +144,7 @@
       }
     }
   }
-  .widget-header {
+  .widgetHeader {
     font-size: 34px;
     font-family: 'Lato';
     font-weight: 600;
@@ -339,7 +339,7 @@
     }
   }
 }
-.Widget-header {
+.WidgetHeader {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -461,7 +461,7 @@
           }
         }
       }
-      .row1-wrapper {
+      .row1Wrapper {
         display: flex;
         flex-direction: row;
         .categoryBox {
@@ -480,7 +480,7 @@
           }
         }
       }
-      .row2-wrapper {
+      .row2Wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -591,7 +591,7 @@
         }
       }
     }
-    .row1-wrapper {
+    .row1Wrapper {
       display: flex;
       flex-direction: row;
       .categoryBox {
@@ -605,7 +605,7 @@
         }
       }
     }
-    .row2-wrapper {
+    .row2Wrapper {
       display: flex;
       flex-direction: row;
       .categoryBox {
@@ -1114,7 +1114,7 @@
   .widget {
     &.autoHeight {
       padding: 15px 5px;
-      .widget-header {
+      .widgetHeader {
         font-size: 20px;
       }
     }
@@ -1136,9 +1136,9 @@
       &:nth-child(4) {
         margin-right: 0px;
       }
-      &:last-child {
-        // display: none;
-      }
+      // &:last-child {
+      //   // display: none;
+      // }
       p {
         font-size: 11px;
       }

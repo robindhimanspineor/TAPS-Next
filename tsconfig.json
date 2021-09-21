@@ -40,7 +40,8 @@
       "Pages/*": ["src/pages/*"],
       "Svg/*": ["src/svg/*"],
       "Styles/*": ["src/styles/*"],
-      "Utils/*": ["src/utils*"]
+      "Utils/*": ["src/utils*"],
+      "Helpers/*": ["src/helpers*"]
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
