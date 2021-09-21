@@ -17,7 +17,7 @@ const MakesWidget = (props: any) => (
         down, make sure to keep your vehicle healthy!!
       </span>
     </div>
-    <div className={`${styles.WidgetBody} ${styles.makeWrapper}`}>
+    <div className={`${styles.widgetBody} ${styles.makeWrapper}`}>
       <div>
         <div className={`${styles.featuredCategoryContainer} ${styles.bottom}`}>
           {MakesList.slice(0, 18).map((value, index) => (

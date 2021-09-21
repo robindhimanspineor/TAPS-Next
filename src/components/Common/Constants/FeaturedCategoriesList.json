@@ -1,0 +1,311 @@
+[
+  {
+    "category": "Tire and Wheel",
+    "catId": 5,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Tire-and-Wheel.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subpopular": true,
+        "subcategory": "Spare Tire and Wheel",
+        "subcategoryId": 65,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Spare-Tire-and-Wheel.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Spare-Tire-and-Wheel.jpg"
+      },
+      {
+        "subpopular": true,
+        "subcategory": "Wheel",
+        "subcategoryId": 67,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Wheel.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Wheel.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Transmission",
+    "catId": 7,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Transmission.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 81,
+        "subcategory": "Switches",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Switches.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Switches.jpg"
+      },
+      {
+        "subcategoryId": 82,
+        "subcategory": "Filters",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Filters.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Filters.jpg"
+      },
+      {
+        "subcategoryId": 83,
+        "subcategory": "Electrical Connectors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Electrical-Connectors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Electrical-Connectors.jpg"
+      },
+      {
+        "subcategoryId": 85,
+        "subcategory": "Transmission Bushings",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Transmission-Bushings.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Transmission-Bushings.jpg"
+      },
+      {
+        "subcategoryId": 88,
+        "subcategory": "Clutch Plates",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Clutch-Plates.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Clutch-Plates.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Accessories and Fluids",
+    "catId": 23,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Accessories-and-Fluids.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 278,
+        "subcategory": "Towing",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Towing.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Towing.jpg"
+      },
+      {
+        "subcategoryId": 279,
+        "subcategory": "Electronic Accessories",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Electronic-Accessories.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Electronic-Accessories.jpg"
+      },
+      {
+        "subcategoryId": 280,
+        "subcategory": "Interior",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Interior.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Interior.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Air and Fuel Delivery",
+    "catId": 11,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Air-and-Fuel-Delivery.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 4,
+        "subcategory": "Fuel Pumps and Related Components",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Fuel-Pumps-and-Related-Components.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Fuel-Pumps-and-Related-Components.jpg"
+      },
+      {
+        "subcategoryId": 7,
+        "subcategory": "Service Kits",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Service-Kits.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Service-Kits.jpg"
+      },
+      {
+        "subcategoryId": 12,
+        "subcategory": "Relays",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Relays.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Relays.jpg"
+      },
+      {
+        "subcategoryId": 14,
+        "subcategory": "Fuel Storage",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Fuel-Storage.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Fuel-Storage.jpg"
+      },
+      {
+        "subcategoryId": 15,
+        "subcategory": "Cylinder Block Components",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Cylinder-Block-Components.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Cylinder-Block-Components.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Body",
+    "catId": 10,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Body.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 236,
+        "subcategory": "Seats",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Seats.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Seats.jpg"
+      },
+      {
+        "subcategoryId": 243,
+        "subcategory": "Electrical Connectors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Electrical-Connectors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Electrical-Connectors.jpg"
+      },
+      {
+        "subcategoryId": 245,
+        "subcategory": "Front Panel",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Front-Panel.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Front-Panel.jpg"
+      },
+      {
+        "subcategoryId": 262,
+        "subcategory": "Mirrors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Mirrors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Mirrors.jpg"
+      },
+      {
+        "subcategoryId": 264,
+        "subcategory": "Steering Wheel",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Steering-Wheel.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Steering-Wheel.jpg"
+      },
+      {
+        "subcategoryId": 266,
+        "subcategory": "Bumper",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Bumper.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Bumper.jpg"
+      },
+      {
+        "subcategoryId": 273,
+        "subcategory": "Glass, Windows and Related Components",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Glass-Windows-and-Related-Components.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Glass-Windows-and-Related-Components.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Exhaust",
+    "catId": 14,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Exhaust.jpg",
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 130,
+        "subcategory": "Sensors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Sensors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Sensors.jpg"
+      },
+      {
+        "subcategoryId": 131,
+        "subcategory": "Exhaust Manifolds",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Exhaust-Manifolds.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Exhaust-Manifolds.jpg"
+      },
+      {
+        "subcategoryId": 133,
+        "subcategory": "Brackets, Flanges and Hangers",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Brackets-Flanges-and-Hangers.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Brackets-Flanges-and-Hangers.jpg"
+      },
+      {
+        "subcategoryId": 134,
+        "subcategory": "Gaskets and Sealing Systems",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Gaskets-and-Sealing-Systems.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Gaskets-and-Sealing-Systems.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Tools and Equipment",
+    "catId": 22,
+    "featured": true,
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Tools-and-Equipment.jpg",
+    "subCategoryList": [
+      {
+        "subcategoryId": 285,
+        "subcategory": "Cooling System Service",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Cooling-System-Service.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Cooling-System-Service.jpg"
+      },
+      {
+        "subcategoryId": 288,
+        "subcategory": "Hand Tools",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Hand-Tools.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Hand-Tools.jpg"
+      },
+      {
+        "subcategoryId": 289,
+        "subcategory": "Differential Service",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Differential-Service.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Differential-Service.jpg"
+      },
+      {
+        "subcategoryId": 290,
+        "subcategory": "Brake System Service",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Brake-System-Service.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Brake-System-Service.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Electrical Lighting and Body",
+    "largeImage": "https://images.theautopartsshop.com/category/Large/Electrical-Lighting-and-Body.jpg",
+    "catId": 2,
+    "featured": true,
+    "subCategoryList": [
+      {
+        "subcategoryId": 35,
+        "subcategory": "Lighting - Exterior",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Lighting-Exterior.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Lighting-Exterior.jpg"
+      },
+      {
+        "subcategoryId": 37,
+        "subcategory": "Electrical Connectors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Electrical-Connectors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Electrical-Connectors.jpg"
+      },
+      {
+        "subcategoryId": 40,
+        "subcategory": "Lighting - Interior",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Lighting-Interior.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Lighting-Interior.jpg"
+      },
+      {
+        "subcategoryId": 44,
+        "subcategory": "Body Actuators and Motors",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Body-Actuators-and-Motors.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Body-Actuators-and-Motors.jpg"
+      },
+      {
+        "subcategoryId": 52,
+        "subcategory": "Wire, Cable and Related Components",
+        "subpopular": true,
+        "largeImage": "https://images.theautopartsshop.com/subcategory/Large/Wire-Cable-and-Related-Components.jpg",
+        "smallImage": "https://images.theautopartsshop.com/subcategory/Small/Wire-Cable-and-Related-Components.jpg"
+      }
+    ]
+  }
+]

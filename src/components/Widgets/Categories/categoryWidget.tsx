@@ -96,19 +96,17 @@ const CategoryWidget = (props: any) => {
           <img src={imagesrc} alt="Image" />
           <div className={`${styles.ImageText}`}>
             <h4>July 21, 2021</h4>
-            <p>
-              {heading}
-              <h6>
-                {description}
-                <span>
-                  <Link href={`/${url}`}>
-                    <a>
-                      <ArrowNextSvg />
-                    </a>
-                  </Link>
-                </span>
-              </h6>
-            </p>
+            <p>{heading}</p>
+            <h6>
+              {description}
+              <span>
+                <Link href={`/${url}`}>
+                  <a>
+                    <ArrowNextSvg />
+                  </a>
+                </Link>
+              </span>
+            </h6>
             <Link href={partTypePath.replace(/\s/g, '')}>
               <a>SHOP NOW</a>
             </Link>
