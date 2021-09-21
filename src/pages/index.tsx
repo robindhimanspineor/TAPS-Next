@@ -5,6 +5,8 @@
 import Header from '../components/common/header';
 import Banner from '../components/home/Banner';
 import ShopByTabs from '../components/home/shopByTabs';
+import CategoriesWidget from '../components/widgets/categories/categories-widget';
+import styles from '../styles/home.module.scss';
 
 const Index = () => {
   // const router = useRouter();
@@ -25,6 +27,11 @@ const Index = () => {
         <section>
           <Banner />
           <ShopByTabs />
+          <div className={styles.bodyContainer}>
+            <div className={`${styles.container} ${styles.home}`}>
+              <CategoriesWidget />
+            </div>
+          </div>
         </section>
       </main>
     </div>

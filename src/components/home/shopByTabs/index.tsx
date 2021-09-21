@@ -24,8 +24,6 @@ const ShopByTabs = () => {
 
   const renderForms = () => {
     switch (activeIndex) {
-      case 'Shop_0':
-        return <ShopByVehicle />;
       case 'Shop_1':
         return <SearchByVin />;
       case 'Shop_2':

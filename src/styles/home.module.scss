@@ -1,0 +1,34 @@
+section {
+  .bodyContainer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .home {
+    .widget {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1142px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1450px;
+  }
+}
